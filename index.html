@@ -22,9 +22,9 @@
 <body id="page-top">
 
     <!-- navegacion -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand js-scroll-trigger" href="page-top">Prototype</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Prototypito</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,28 +32,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    <div class="nav-link" href="#"> <span class="sr-only">(current)</span></div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Nuestros servicios
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Solicitar viaje</a>
-                        <a class="dropdown-item" href="#">Nuestros productos</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Ayuda</a>
-                    </div>
+                    <a class="nav-link js-scroll-trigger" href="#services">Nuestros Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactanos</a>
+                    <a class="nav-link js-scroll-trigger" href="#about">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact" tabindex="-1" aria-disabled="true">Contactanos</a>
                 </li>
             </ul>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
@@ -84,7 +75,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h2 class="section-heading text-uppercase">Servicios</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -229,7 +220,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h2 class="section-heading text-uppercase">Contactanos</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -268,7 +259,7 @@
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                 <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
-                                    type="submit">Send Message</button>
+                                    type="submit">Enviar</button>
                             </div>
                         </div>
                     </form>
